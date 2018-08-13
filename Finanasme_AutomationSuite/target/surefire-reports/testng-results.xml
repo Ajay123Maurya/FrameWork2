@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="36" failed="0" total="36" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="48" started-at="2017-08-02T12:24:34Z" finished-at="2017-08-02T12:24:34Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="48" started-at="2017-08-02T12:24:34Z" finished-at="2017-08-02T12:24:34Z">
+      <class name="tests.SignInAsSalesTest">
+        <test-method status="SKIP" signature="initializeBrowser()[pri:0, instance:tests.SignInAsSalesTest@776aec5c]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="verifySignInAsSales()[pri:0, instance:tests.SignInAsSalesTest@776aec5c]" name="verifySignInAsSales" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the sign In flow as Sales" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInAsSales -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.SignInAsSalesTest@776aec5c]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+      </class> <!-- tests.SignInAsSalesTest -->
+      <class name="tests.SignInAsFinanceTest">
+        <test-method status="SKIP" signature="initializeBrowser()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="verifySignInAsFinance()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="verifySignInAsFinance" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the sign In flow as Finance" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInAsFinance -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifySignedInUsername()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="verifySignedInUsername" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="validate the signedIn user as Finance" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignedInUsername -->
+        <test-method status="SKIP" signature="verifyContinueOnAccountInfoPage()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="verifyContinueOnAccountInfoPage" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="validate the Account Info tab" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueOnAccountInfoPage -->
+        <test-method status="SKIP" signature="processAppliedLoan()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="processAppliedLoan" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="Process applied loan" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processAppliedLoan -->
+        <test-method status="SKIP" signature="verifyContinueOnBasicsInfoPage()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="verifyContinueOnBasicsInfoPage" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="validate the Basic Info tab" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueOnBasicsInfoPage -->
+        <test-method status="SKIP" signature="verifySaveAndContinueOnFinancialInfoPage()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="verifySaveAndContinueOnFinancialInfoPage" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="validate the Finacial Info tab" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySaveAndContinueOnFinancialInfoPage -->
+        <test-method status="SKIP" signature="enterAccountNoUnderBankStatement()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="enterAccountNoUnderBankStatement" duration-ms="1" started-at="2017-08-02T17:54:34Z" description="enter the Account number under Bank Statement tab" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAccountNoUnderBankStatement -->
+        <test-method status="SKIP" signature="selectBankName()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="selectBankName" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="select bank under Bank Statement" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBankName -->
+        <test-method status="SKIP" signature="selectMonth()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="selectMonth" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="select from month under Bank Statement" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMonth -->
+        <test-method status="SKIP" signature="selectYear()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="selectYear" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="select from year under Bank Statement" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectYear -->
+        <test-method status="SKIP" signature="selectToMonth()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="selectToMonth" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="select to month under Bank Statement" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectToMonth -->
+        <test-method status="SKIP" signature="selectToYear()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="selectToYear" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="select to year under Bank Statement" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectToYear -->
+        <test-method status="SKIP" signature="clickOnGenerateBankStatement()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="clickOnGenerateBankStatement" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="click on generate bank statement" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGenerateBankStatement -->
+        <test-method status="SKIP" signature="submitBankStatement()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="submitBankStatement" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="submit bank statement" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitBankStatement -->
+        <test-method status="SKIP" signature="saveBankStatement()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="saveBankStatement" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="save bank statement" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveBankStatement -->
+        <test-method status="SKIP" signature="fetchprobeData()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="fetchprobeData" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="fetch probe data" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchprobeData -->
+        <test-method status="SKIP" signature="loginAsScm()[pri:0, instance:tests.SignInAsFinanceTest@765d7657]" name="loginAsScm" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="login as scm to provide feedback" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsScm -->
+      </class> <!-- tests.SignInAsFinanceTest -->
+      <class name="tests.HomePageTest">
+        <test-method status="FAIL" signature="initializeBrowser()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at utils.BrowserFactory.initializeBrowser(BrowserFactory.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyValidHomePage()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyValidHomePage" duration-ms="1" started-at="2017-08-02T17:54:34Z" description="Verify the presence of UI elements mandatory on Home Page" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidHomePage -->
+        <test-method status="SKIP" signature="verifyApplyForLoan()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyApplyForLoan" duration-ms="1" started-at="2017-08-02T17:54:34Z" description="Verfiy the presence apply for new loan button and link" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplyForLoan -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyIncorrectLogin()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyIncorrectLogin" duration-ms="1" started-at="2017-08-02T17:54:34Z" description="verify failure sign In flow" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectLogin -->
+        <test-method status="SKIP" signature="verifyRequestCallOnHomePage()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyRequestCallOnHomePage" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the presence and functionality of request call" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequestCallOnHomePage -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyAutoSlidingOfBanners()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyAutoSlidingOfBanners" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="Verify the sliding of Banners on Home Page" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAutoSlidingOfBanners -->
+        <test-method status="SKIP" signature="verifySignInAsFinance()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifySignInAsFinance" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="Verify Sign in Using finance login" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInAsFinance -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyBannerImages()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyBannerImages" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the images are same or not" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBannerImages -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyMyAccountOnHomePage()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyMyAccountOnHomePage" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the presence and functionality of My Account" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountOnHomePage -->
+        <test-method status="SKIP" signature="verifySideUpperBanner()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifySideUpperBanner" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the presence and redirection of side banners" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySideUpperBanner -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyTrackOrderForBlankOrderId()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyTrackOrderForBlankOrderId" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify track order for blank order ID" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTrackOrderForBlankOrderId -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyRegisterButtonLink()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyRegisterButtonLink" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the register button and link from my account" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterButtonLink -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyQuickViewOfProductOnHomePage()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyQuickViewOfProductOnHomePage" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the quick watch functionality" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuickViewOfProductOnHomePage -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyAddToCartFromQuickView()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyAddToCartFromQuickView" duration-ms="1" started-at="2017-08-02T17:54:34Z" description="verify add to cart from quick Watch functionality" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFromQuickView -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyProductRedirectionFromQuickView()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyProductRedirectionFromQuickView" duration-ms="1" started-at="2017-08-02T17:54:34Z" description="verify the redirection of product page and back to home page" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductRedirectionFromQuickView -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifyViewDetailsRedirectionFromQuickView()[pri:0, instance:tests.HomePageTest@7c7a06ec]" name="verifyViewDetailsRedirectionFromQuickView" duration-ms="1" started-at="2017-08-02T17:54:34Z" description="verify the redirection to product page from quick view of product" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewDetailsRedirectionFromQuickView -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.SignInAsAuditorTest">
+        <test-method status="SKIP" signature="initializeBrowser()[pri:0, instance:tests.SignInAsAuditorTest@5b7a5baa]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.SignInAsAuditorTest@5b7a5baa]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifySignInAsAuditor()[pri:0, instance:tests.SignInAsAuditorTest@5b7a5baa]" name="verifySignInAsAuditor" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the sign In flow as Finance" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInAsAuditor -->
+      </class> <!-- tests.SignInAsAuditorTest -->
+      <class name="tests.SignInAsNbfcMangerTest">
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.SignInAsNbfcMangerTest@5bf0d49]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="SKIP" signature="verifySignInAsNbfcManager()[pri:0, instance:tests.SignInAsNbfcMangerTest@5bf0d49]" name="verifySignInAsNbfcManager" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the sign In flow as NbfcManager" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInAsNbfcManager -->
+        <test-method status="SKIP" signature="initializeBrowser()[pri:0, instance:tests.SignInAsNbfcMangerTest@5bf0d49]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+      </class> <!-- tests.SignInAsNbfcMangerTest -->
+      <class name="tests.SignInAsScmTest">
+        <test-method status="SKIP" signature="initializeBrowser()[pri:0, instance:tests.SignInAsScmTest@1d296da]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="verifySignInAsScm()[pri:0, instance:tests.SignInAsScmTest@1d296da]" name="verifySignInAsScm" duration-ms="0" started-at="2017-08-02T17:54:34Z" description="verify the sign In flow as scm" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInAsScm -->
+        <test-method status="SKIP" signature="openURL()[pri:0, instance:tests.SignInAsScmTest@1d296da]" name="openURL" is-config="true" duration-ms="0" started-at="2017-08-02T17:54:34Z" finished-at="2017-08-02T17:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+      </class> <!-- tests.SignInAsScmTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

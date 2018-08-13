@@ -1,0 +1,444 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/36</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 02 17:54:34 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (48 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.HomePageTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: tests.HomePageTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at utils.BrowserFactory.initializeBrowser(BrowserFactory.java:29)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2030538903", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2030538903'><pre>java.lang.NullPointerException
+	at utils.BrowserFactory.initializeBrowser(BrowserFactory.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.SignInAsAuditorTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: tests.SignInAsAuditorTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsAuditorTest@5b7a5baa</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: tests.SignInAsFinanceTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.openURL()'><b>openURL</b><br>Test class: tests.SignInAsFinanceTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsNbfcMangerTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: tests.SignInAsNbfcMangerTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsNbfcMangerTest@5bf0d49</td></tr>
+<tr>
+<td title='tests.SignInAsSalesTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: tests.SignInAsSalesTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsSalesTest@776aec5c</td></tr>
+<tr>
+<td title='tests.SignInAsScmTest.initializeBrowser()'><b>initializeBrowser</b><br>Test class: tests.SignInAsScmTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsScmTest@1d296da</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.SignInAsAuditorTest.openURL()'><b>openURL</b><br>Test class: tests.SignInAsAuditorTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsAuditorTest@5b7a5baa</td></tr>
+<tr>
+<td title='tests.SignInAsNbfcMangerTest.openURL()'><b>openURL</b><br>Test class: tests.SignInAsNbfcMangerTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsNbfcMangerTest@5bf0d49</td></tr>
+<tr>
+<td title='tests.SignInAsSalesTest.openURL()'><b>openURL</b><br>Test class: tests.SignInAsSalesTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsSalesTest@776aec5c</td></tr>
+<tr>
+<td title='tests.SignInAsScmTest.openURL()'><b>openURL</b><br>Test class: tests.SignInAsScmTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsScmTest@1d296da</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.openURL()'><b>openURL</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.clickOnGenerateBankStatement()'><b>clickOnGenerateBankStatement</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: click on generate bank statement</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.enterAccountNoUnderBankStatement()'><b>enterAccountNoUnderBankStatement</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: enter the Account number under Bank Statement tab</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.fetchprobeData()'><b>fetchprobeData</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: fetch probe data</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.loginAsScm()'><b>loginAsScm</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: login as scm to provide feedback</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.processAppliedLoan()'><b>processAppliedLoan</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: Process applied loan</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.saveBankStatement()'><b>saveBankStatement</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: save bank statement</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.selectBankName()'><b>selectBankName</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: select bank under Bank Statement</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.selectMonth()'><b>selectMonth</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: select from month under Bank Statement</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.selectToMonth()'><b>selectToMonth</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: select to month under Bank Statement</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.selectToYear()'><b>selectToYear</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: select to year under Bank Statement</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.selectYear()'><b>selectYear</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: select from year under Bank Statement</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.submitBankStatement()'><b>submitBankStatement</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: submit bank statement</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyAddToCartFromQuickView()'><b>verifyAddToCartFromQuickView</b><br>Test class: tests.HomePageTest<br>Test method: verify add to cart from quick Watch functionality</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyApplyForLoan()'><b>verifyApplyForLoan</b><br>Test class: tests.HomePageTest<br>Test method: Verfiy the presence apply for new loan button and link</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyAutoSlidingOfBanners()'><b>verifyAutoSlidingOfBanners</b><br>Test class: tests.HomePageTest<br>Test method: Verify the sliding of Banners on Home Page</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyBannerImages()'><b>verifyBannerImages</b><br>Test class: tests.HomePageTest<br>Test method: verify the images are same or not</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.verifyContinueOnAccountInfoPage()'><b>verifyContinueOnAccountInfoPage</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: validate the Account Info tab</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.verifyContinueOnBasicsInfoPage()'><b>verifyContinueOnBasicsInfoPage</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: validate the Basic Info tab</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyIncorrectLogin()'><b>verifyIncorrectLogin</b><br>Test class: tests.HomePageTest<br>Test method: verify failure sign In flow</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyMyAccountOnHomePage()'><b>verifyMyAccountOnHomePage</b><br>Test class: tests.HomePageTest<br>Test method: verify the presence and functionality of My Account</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyProductRedirectionFromQuickView()'><b>verifyProductRedirectionFromQuickView</b><br>Test class: tests.HomePageTest<br>Test method: verify the redirection of product page and back to home page</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyQuickViewOfProductOnHomePage()'><b>verifyQuickViewOfProductOnHomePage</b><br>Test class: tests.HomePageTest<br>Test method: verify the quick watch functionality</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyRegisterButtonLink()'><b>verifyRegisterButtonLink</b><br>Test class: tests.HomePageTest<br>Test method: verify the register button and link from my account</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyRequestCallOnHomePage()'><b>verifyRequestCallOnHomePage</b><br>Test class: tests.HomePageTest<br>Test method: verify the presence and functionality of request call</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.verifySaveAndContinueOnFinancialInfoPage()'><b>verifySaveAndContinueOnFinancialInfoPage</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: validate the Finacial Info tab</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifySideUpperBanner()'><b>verifySideUpperBanner</b><br>Test class: tests.HomePageTest<br>Test method: verify the presence and redirection of side banners</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.SignInAsAuditorTest.verifySignInAsAuditor()'><b>verifySignInAsAuditor</b><br>Test class: tests.SignInAsAuditorTest<br>Test method: verify the sign In flow as Finance</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsAuditorTest@5b7a5baa</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.verifySignInAsFinance()'><b>verifySignInAsFinance</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: verify the sign In flow as Finance</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifySignInAsFinance()'><b>verifySignInAsFinance</b><br>Test class: tests.HomePageTest<br>Test method: Verify Sign in Using finance login</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.SignInAsNbfcMangerTest.verifySignInAsNbfcManager()'><b>verifySignInAsNbfcManager</b><br>Test class: tests.SignInAsNbfcMangerTest<br>Test method: verify the sign In flow as NbfcManager</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsNbfcMangerTest@5bf0d49</td></tr>
+<tr>
+<td title='tests.SignInAsSalesTest.verifySignInAsSales()'><b>verifySignInAsSales</b><br>Test class: tests.SignInAsSalesTest<br>Test method: verify the sign In flow as Sales</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsSalesTest@776aec5c</td></tr>
+<tr>
+<td title='tests.SignInAsScmTest.verifySignInAsScm()'><b>verifySignInAsScm</b><br>Test class: tests.SignInAsScmTest<br>Test method: verify the sign In flow as scm</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsScmTest@1d296da</td></tr>
+<tr>
+<td title='tests.SignInAsFinanceTest.verifySignedInUsername()'><b>verifySignedInUsername</b><br>Test class: tests.SignInAsFinanceTest<br>Test method: validate the signedIn user as Finance</td>
+<td></td>
+<td>0</td>
+<td>tests.SignInAsFinanceTest@765d7657</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyTrackOrderForBlankOrderId()'><b>verifyTrackOrderForBlankOrderId</b><br>Test class: tests.HomePageTest<br>Test method: verify track order for blank order ID</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyValidHomePage()'><b>verifyValidHomePage</b><br>Test class: tests.HomePageTest<br>Test method: Verify the presence of UI elements mandatory on Home Page</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyViewDetailsRedirectionFromQuickView()'><b>verifyViewDetailsRedirectionFromQuickView</b><br>Test class: tests.HomePageTest<br>Test method: verify the redirection to product page from quick view of product</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@7c7a06ec</td></tr>
+</table><p>
+</body>
+</html>

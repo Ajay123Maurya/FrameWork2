@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.SignInAsAuditorTest">
+        <methods>
+          <include name="verifySignInAsAuditor"/>
+        </methods>
+      </class> <!-- tests.SignInAsAuditorTest -->
+      <class name="tests.SignInAsScmTest">
+        <methods>
+          <include name="verifySignInAsScm"/>
+        </methods>
+      </class> <!-- tests.SignInAsScmTest -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="verifyProductRedirectionFromQuickView"/>
+          <include name="verifyBannerImages"/>
+          <include name="verifyTrackOrderForBlankOrderId"/>
+          <include name="verifyAddToCartFromQuickView"/>
+          <include name="verifyAutoSlidingOfBanners"/>
+          <include name="verifyMyAccountOnHomePage"/>
+          <include name="verifyRequestCallOnHomePage"/>
+          <include name="verifyApplyForLoan"/>
+          <include name="verifyQuickViewOfProductOnHomePage"/>
+          <include name="verifySideUpperBanner"/>
+          <include name="verifySignInAsFinance"/>
+          <include name="verifyIncorrectLogin"/>
+          <include name="verifyValidHomePage"/>
+          <include name="verifyRegisterButtonLink"/>
+          <include name="verifyViewDetailsRedirectionFromQuickView"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.SignInAsFinanceTest">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="verifySignedInUsername"/>
+          <include name="selectToMonth"/>
+          <include name="verifyContinueOnBasicsInfoPage"/>
+          <include name="enterAccountNoUnderBankStatement"/>
+          <include name="clickOnGenerateBankStatement"/>
+          <include name="fetchprobeData"/>
+          <include name="verifySignInAsFinance"/>
+          <include name="loginAsScm"/>
+          <include name="selectMonth"/>
+          <include name="selectToYear"/>
+          <include name="selectBankName"/>
+          <include name="submitBankStatement"/>
+          <include name="verifyContinueOnAccountInfoPage"/>
+          <include name="processAppliedLoan"/>
+          <include name="verifySaveAndContinueOnFinancialInfoPage"/>
+          <include name="selectYear"/>
+          <include name="saveBankStatement"/>
+        </methods>
+      </class> <!-- tests.SignInAsFinanceTest -->
+      <class name="tests.SignInAsSalesTest">
+        <methods>
+          <include name="verifySignInAsSales"/>
+        </methods>
+      </class> <!-- tests.SignInAsSalesTest -->
+      <class name="tests.SignInAsNbfcMangerTest">
+        <methods>
+          <include name="verifySignInAsNbfcManager"/>
+        </methods>
+      </class> <!-- tests.SignInAsNbfcMangerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
